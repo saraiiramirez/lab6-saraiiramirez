@@ -7,6 +7,6 @@ def get_config():
         "sensitivity": 0.4
     }
 
-print(get_config())
+
  
 
