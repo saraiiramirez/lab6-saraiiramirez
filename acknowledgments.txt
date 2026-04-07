@@ -3,7 +3,7 @@ Lab 6
 /****************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 5-7
 
 
 /****************************************************************************
@@ -11,6 +11,8 @@ Número de horas:
 ******************************************************************************/
 
 ¿Sí o no?
+
+no, no encontre
 
 
 /****************************************************************************
@@ -23,7 +25,7 @@ Número de horas:
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+https://github.com/saraiiramirez
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -35,3 +37,6 @@ Número de horas:
  ******************************************************************************/
 
 [escribe y firma la declaración aquí]
+
+Este laboratorio de intro a la programación representa mi propio trabajo de acuerdo con las regulaciones
+de la universidad. /s/
