@@ -18,6 +18,6 @@ def employee_print(employee_info):
             print(f"{key}: {value}")
 
     else:
-        print("No other info!")
+        print("No other info!") 
 
 
