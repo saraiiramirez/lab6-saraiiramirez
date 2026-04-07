@@ -1,6 +1,5 @@
 def show_inventory(inventory):
     print("\nCurrent Inventory:")
-    # ¿Es esta la forma correcta de iterar sobre el diccionario?
     for fruit, stock in inventory:
         print(f"{fruit}: {stock}")
     print()

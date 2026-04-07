@@ -4,7 +4,7 @@ def temp_and_color(data):
     color = data.get("color") 
     return (temp, color)
 
-
+  
 
 
 
