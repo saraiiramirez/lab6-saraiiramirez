@@ -10,15 +10,13 @@ Número de horas: 5-7
 * ¿Encontraste algún problema serio? Si es así, por favor descríbelo.
 ******************************************************************************/
 
-¿Sí o no?
-
 no, no encontre
 
 
 /****************************************************************************
 * Escribe cualquier otro comentario aquí.
 ******************************************************************************/
-
+no encontre problemas, el laboratorio estuvo menos largo y chevere de hacer
 
 
 /****************************************************************************
@@ -36,7 +34,5 @@ https://github.com/saraiiramirez
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
-
 Este laboratorio de intro a la programación representa mi propio trabajo de acuerdo con las regulaciones
-de la universidad. /s/
+de la universidad. /s/ Sarai Ramirez
