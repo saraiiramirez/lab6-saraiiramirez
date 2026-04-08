@@ -1,46 +1,46 @@
-import grades_manager as gm 
+from grades_manager import add_student, avg_by_student
+
 
 def main():
-    print("Welcome to the Student Grades Manager!")
-    
+    print("Welcome to the Student Grades Manager!\n")
+
     my_grades = {}
-    
+
     while True:
-        print("\nSelect an option:")
+        print("Select an option:")
         print("1. Add a student")
         print("2. Print student grade averages")
         print("3. Exit")
-        
-        choice = input().strip()
-        
-        if choice == '1':
-            print()
-            my_grades = gm.add_student(my_grades)
-            
-        elif choice == '2':
-            print("\nSelect an option:")
+
+        option = input()
+
+        if option == "1":
+            my_grades = add_student(my_grades)
+
+        elif option == "2":
+            print("Select an option:")
             print("a. Display all students")
             print("b. Display selected students")
-            
-            sub_choice = input().strip().lower()
-            
-            if sub_choice == 'a':
-                print()
-                gm.avg_by_student(my_grades)
-                
-            elif sub_choice == 'b':
-                names_input = input("\nEnter student names (comma-separated):\n")
-                names_list = [n.strip() for n in names_input.split(',')]
-                print()
-                gm.avg_by_student(my_grades, names_list)
-                
-            else:
-                print("\nInvalid option selected!")
-                
-        elif choice == '3':
-            print("\nGoodbye!")
-            break
-            
-        else:
-            print("\nInvalid option selected!")
 
+            sub_option = input()
+
+            if sub_option == "a":
+                avg_by_student(my_grades)
+
+            elif sub_option == "b":
+                names = input("Enter student names (comma-separated): ")
+                keys = [name.strip() for name in names.split(",")]
+                avg_by_student(my_grades, keys)
+
+            else:
+                print("Invalid option selected!")
+
+        elif option == "3":
+            print("Goodbye!")
+            break
+
+        else:
+            print("Invalid option selected!")
+
+if __name__ == "__main__":
+    main()
